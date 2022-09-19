@@ -1,0 +1,26 @@
+{
+  "name": "demo-nodejs",
+  "version": "1.0.0",
+  "description": "My amazing nodejs project",
+  "main": "user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon user.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mimansa/demo-nodejs.git"
+  },
+  "author": "Aniruddha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mimansa/demo-nodejs/issues"
+  },
+  "homepage": "https://gitlab.com/mimansa/demo-nodejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "mysql": "^2.18.1"
+  }
+}
